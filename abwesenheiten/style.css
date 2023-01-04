@@ -14,7 +14,7 @@ body {
    */
   
   .sidebar {
-    position: fixed;
+
     top: 0;
     bottom: 0;
     left: 0;
@@ -138,6 +138,49 @@ body {
     box-shadow: 0 0 1vw 0.1vw rgba(213, 213, 213, 0.1);
 
   }
+
+  #sidebarMenu{
+    padding-top: 0 ;
+
+  }
+  .row{
+    background-color: #007bff;
+  }
+  #sidebarMenu > div{
+    flex: 40%;
+  }
+  .onleave-container{
+    flex:60%;
+  }
+
+  .table-secondary{
+    width: 10%;
+    text-align: center;
+  }
+  .table-secondary.month{
+    text-align: left;
+    padding-left: 1vw;
+
+  }
+  .table-secondary.onleave{
+    text-align: center;
+  }
+
+  .hide {
+    display: none;
+    background-color: #333;
+    padding: 0.5vw;
+    transform: translate(0vw, 0vw);
+    text-align: left;
+    border-radius: 0.2vw;
+  }
+  
+  .myDIV:hover + .hide {
+    display: block;
+    position: absolute;
+    color: white;
+  }
+
 
 
   
