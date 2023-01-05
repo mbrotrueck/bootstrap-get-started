@@ -144,31 +144,27 @@ body {
 
   }
   .row{
-    background-color: #007bff;
   }
   #sidebarMenu > div{
     flex: 40%;
   }
   .onleave-container{
-    flex:60%;
+    flex:10%;
   }
 
   .table-secondary{
-    width: 10%;
     text-align: center;
+    border: darkgray thin solid;
+    background-color: gainsboro;
   }
-  .table-secondary.month{
-    text-align: left;
-    padding-left: 1vw;
-
-  }
+  
   .table-secondary.onleave{
     text-align: center;
   }
 
   .hide {
     display: none;
-    background-color: #333;
+    background-color: gray;
     padding: 0.5vw;
     transform: translate(0vw, 0vw);
     text-align: left;
