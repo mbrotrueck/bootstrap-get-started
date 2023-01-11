@@ -170,20 +170,14 @@ body {
   main{
     min-height: 100vh;
     background-color: rgb(227, 227, 227);
-    
   }
-  a{
-    list-style-type:none;
+  .employees-header-container{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-  .employees-list{
-    background-color: #ffffff;
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 0.2rem ;
-  }
-  .employees-list > a{
-    list-style-type: none;
-    text-decoration: none;
-  }
+  
   .employees-header{
     margin: 1.5rem 0;
   }
@@ -200,96 +194,52 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1rem;
   }
-  .bi.bi-vector-pen{
-    margin-left: 2rem
-  }
-
-  .btn-container{
-    padding: 1rem;
-  }
-  .btn-container > button{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(153, 153, 153);
+  .employees-header-container svg{
     color: var(--gray-dark);
-    font-size: 0.8rem;
-    
-    padding: 0.4rem 1rem;
-  }
-  .btn-container > button:hover{
-    background-color: rgb(46, 167, 155);
-
-    border: 2px solid rgb(46, 167, 155);
-    color: white;
-    font-size: 0.8rem;
-    padding: 0.4rem 1rem;
-  }
-  .btn-container > button svg{
-    height:1.5rem;
-    width: 1.5rem;
     
   }
-  .btn.btn-outline-primary{
-    display:flex;
-    align-items: center;
-  }
-  .btn.btn-outline-primary p{
-    font-weight: bold;
-    margin: 0;
-    margin-left: 1rem;
-  }
-
-  .btn.btn-outline-primary a{
-    margin-bottom: 0 ;
-    font-weight: bold;
-    margin-left: 1rem;
-  }
-
-
-
-
-  .slide-pages{
-    display: flex;
+  .form-row.btn-addemployee{
     justify-content: flex-end;
-    padding-bottom: 1rem;
-    margin:0.8rem;
-  }
-  .slide-pages button{
-    margin-left:0.8rem;
-    border-radius: 50%;
-    background-color: rgb(46, 167, 155);
-    border: none;
-
-    font-weight: bold;
-    font-size: 1rem;
-
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
-  }
-  
-  th > a{
-    /* jumping animation here would be cool */
-    color:  rgb(4, 176, 159);
   }
 
-  .employees-header > nav{
-    background-color: rgb(227, 227, 227);
-  }
-  .employees-header > nav >ol{
-    background-color: rgb(227, 227, 227);
-    padding: 0;
-    padding-top: 0.5rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2rem;
-  }
-  .breadcrumb-item.active{
-    font-weight: bold;
-  }
-  hr{
-    margin: 0;
-    margin-top: 1rem;
-  }
+#add-employee{
+  background-color: #ffffff;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+  padding: 1rem; 
+}
 
-  
+#add-employee > h4{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.form-row.btn-addemployee > button{
+  background-color: rgb(8, 159, 176);
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
 
+.employees-header > nav{
+  background-color: rgb(227, 227, 227);
+}
+.employees-header > nav >ol{
+  background-color: rgb(227, 227, 227);
+  padding: 0;
+  padding-top: 0.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+}
+.breadcrumb-item.active{
+  font-weight: bold;
+}
+
+.breadcrumb-item>a{
+  color: var(--gray-dark);
+  text-decoration: none;
+}
+
+
+ 
 
 
 

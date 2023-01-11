@@ -1,20 +1,4 @@
 /* globals Chart:false, feather:false */
-var check = true;
-const arrowDirection =()=>{
-  let drop = document.getElementById("drop");
-  let clientOne = document.getElementById("client-1");
-  if(check){
-    drop.className = "dropup"
-    clientOne.style.display = "block";
-    check = false;
-  }else{
-    drop.className = "dropdown";
-    clientOne.style.display = "none";
-    check = true;
-  }
-  console.log(check);
-} 
-
 
 (function () {
     'use strict'
